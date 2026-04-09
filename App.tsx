@@ -372,13 +372,13 @@ const App: React.FC = () => {
            <div className="flex flex-col lg:flex-row-reverse items-center gap-10 md:gap-24">
               <div className="w-full lg:w-1/2 relative reveal">
                 <div className="relative flex flex-wrap justify-center gap-4 md:gap-8 items-center py-6 md:py-10">
-                  <GlowCard glowColor="orange" customSize borderRadius="full" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden animate-float animate-aura-glow p-0 flex items-center justify-center aspect-square">
+                  <GlowCard glowColor="orange" customSize borderRadius="full" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden animate-float p-0 flex items-center justify-center aspect-square hover:shadow-[0_0_60px_rgba(245,158,11,0.6)] hover:scale-105 transition-all duration-500 cursor-pointer">
                     <img src={IMAGES.MASTERY_1} alt="Mastery 1" className="w-full h-full object-cover" />
                   </GlowCard>
-                  <GlowCard glowColor="orange" customSize borderRadius="full" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden animate-float animate-aura-glow [animation-delay:2s] p-0 flex items-center justify-center aspect-square">
+                  <GlowCard glowColor="orange" customSize borderRadius="full" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden animate-float [animation-delay:2s] p-0 flex items-center justify-center aspect-square hover:shadow-[0_0_60px_rgba(245,158,11,0.6)] hover:scale-105 transition-all duration-500 cursor-pointer">
                     <img src={IMAGES.MASTERY_2} alt="Mastery 2" className="w-full h-full object-cover" />
                   </GlowCard>
-                  <GlowCard glowColor="orange" customSize borderRadius="full" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden animate-float animate-aura-glow [animation-delay:4s] p-0 flex items-center justify-center aspect-square">
+                  <GlowCard glowColor="orange" customSize borderRadius="full" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden animate-float [animation-delay:4s] p-0 flex items-center justify-center aspect-square hover:shadow-[0_0_60px_rgba(245,158,11,0.6)] hover:scale-105 transition-all duration-500 cursor-pointer">
                     <img src={IMAGES.MASTERY_3} alt="Mastery 3" className="w-full h-full object-cover" />
                   </GlowCard>
                 </div>
