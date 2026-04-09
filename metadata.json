@@ -1,0 +1,7 @@
+{
+  "name": "Universal Touch - Aajay Kumar Datt",
+  "description": "A mystical healing platform for Reiki, Numerology, and Tibetan healing, featuring a Gemini-powered Spiritual Oracle for personalized guidance by Aajay Kumar Datt.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
