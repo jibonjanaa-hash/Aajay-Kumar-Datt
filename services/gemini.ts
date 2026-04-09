@@ -2,8 +2,16 @@
 import { GoogleGenAI } from "@google/genai";
 import { ChatMessage } from "../types";
 
-// Always initialize GoogleGenAI with the apiKey from process.env.API_KEY
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Retrieve API key from environment variables
+const getApiKey = () => {
+  const key = process.env.GEMINI_API_KEY || process.env.API_KEY;
+  if (!key) {
+    console.warn("GEMINI_API_KEY is not defined. Please set it in your environment variables.");
+  }
+  return key || "";
+};
+
+const ai = new GoogleGenAI({ apiKey: getApiKey() });
 
 export class SpiritualOracleService {
   /**
